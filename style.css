@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.contact {
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+}
+
+.contact h2 {
+font-size: 24px;
+margin: 0 0 10px 0;
+}
+
+.contact p {
+font-size: 16px;
+line-height: 1.5;
+margin: 0;
+}
+
+.contact a {
+color: #007bff;
+text-decoration: none;
+}
+
+.contact a:hover {
+text-decoration: underline;
+}
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem 0;
+  }
+  
+  .socials a {
+    text-decoration: none;
+    padding: 0.75rem;
+    margin: 0.25rem;
+    transition: color 0.4s ease;
+    background-color: #551fbd;
+    color: #fff;
+    border-radius: 50%;
+  }
+  
+  .socials a i {
+    font-size: 2em;
+  }
+  
+  .socials a:hover {
+    background-color: #a2eacb;
+  }
+  
+  .fa-2x {
+    font-size: 3em;
+  }
+  
+  
+  nav {
+    background-color: #00e1d9;
+  }
+  
+  nav ul li a {
+    background-color: #fff;
+    color: #00e1d9;
+  }
+  
+  nav ul li:hover {
+    background-color: #fff;
+    border-radius: 10px;
+  }
