@@ -7,14 +7,18 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" integrity="sha512-...your-integrity-hash-here..." crossorigin="anonymous" />
-
+    <script src="app.js"></script>
     <script src="https://kit.fontawesome.com/609039e62e.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <h1><i class="fas fa-user"></i> Tuguldur</h1>
         <p>Front-End Assistant</p>
-        <img src="bfaf84536e182c75d15303a1e4f9fb5e.jpg" alt="Tuguldur's photo">
+        <img id="myImage" src="img/image1.jpg" alt="Tuguldur's photo" onclick="showImage()">
+        <div id="overlay">
+            <img id="overlayImage" src="" alt="">
+            <button id="closeButton" onclick="hideImage()">Close</button>
+          </div>
         <div class="socials">
             <a href="https://www.facebook.com/tuguldur.stn/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
             <a href="https://www.instagram.com/trash_gang_community/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
