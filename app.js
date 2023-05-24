@@ -17,7 +17,7 @@ function changeImage() {
   setInterval(changeImage, 3000);
   function showImage() {
     let overlay = document.getElementById("overlay");
-    let overlayImage = document.getElementById("overlayImage");
+    let overlayImage = document.getElementById("overlayImg");
     let thumbnailImage = document.getElementById("myImage");
     let flag = document.querySelectorAll(".flag-icon");
     overlay.style.display = "flex";
