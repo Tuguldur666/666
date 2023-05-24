@@ -1,10 +1,10 @@
-
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   background-color: #f7f7f7;
   margin: 0;
   padding: 0;
   font-weight: bold;
+  color: #333;
 }
 
 header {
@@ -13,10 +13,17 @@ header {
   padding: 20px;
   text-align: center;
 }
+h1::before,
+h2::before,
+h3::before {
+    display: inline-block;
+    margin-right: 0.5em;
+}
 
 h1 {
-  font-size: 36px;
+  font-size: 48px;
   margin: 0;
+  font-weight: bold;
 }
 
 .container {
@@ -30,24 +37,29 @@ h1 {
 .section {
   margin-bottom: 20px;
   border-bottom: #007bff solid 2px;
-  padding-bottom:0.25rem ;
+  padding-bottom: 0.25rem;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 32px;
   margin: 0 0 10px 0;
+  font-weight: bold;
 }
-h3{
+
+h3 {
   margin: 0;
   padding-top: 0.4rem;
   padding-bottom: 0.4rem;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 p {
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.6;
   margin: 0;
   padding: 0.25rem;
+  font-style: italic;
 }
 
 img {
@@ -91,17 +103,33 @@ img {
 .socials a:hover i {
   transform: scale(1.2);
 }
-ul{
+
+ul {
   margin: 0;
   list-style-type: none;
   padding: 0.25rem;
 }
-ul li{
+
+ul li {
   padding: 0.2rem;
 }
-span{
+
+span {
   font-weight: normal;
 }
-ul li i{
+
+ul li i {
   padding: 5px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+u {
+  text-decoration: underline;
 }
