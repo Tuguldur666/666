@@ -35,5 +35,12 @@ function changeImage() {
         icon.classList.remove("fade");
       });
   }
-  
+
+  function savePageAsPDF() {
+    const originalMediaType = window.matchMedia('screen').media;
+    window.matchMedia('screen').media = 'print';
+    window.print();
+    window.matchMedia('screen').media = originalMediaType;
+  }
+
     

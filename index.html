@@ -4,10 +4,12 @@
     <title>Tuguldur CV</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="path/to/jspdf.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" integrity="sha512-...your-integrity-hash-here..." crossorigin="anonymous" />
     <link rel="icon" type="image/png" href="img/icons8-about-16.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.68/pdfmake.min.js"></script>
     <script src="app.js"></script>
     <script src="https://kit.fontawesome.com/609039e62e.js" crossorigin="anonymous"></script>
 </head>
@@ -78,6 +80,7 @@
             <p>School Email: <a href="mailto:sw22d004@mandakh.edu.mn">sw22d004@mandakh.edu.mn</a></p>
             <p>Phone number: +97699881175</p>
         </section>
+        <button class="downloadButton" onclick="savePageAsPDF()">Download as PDF</button>
     </div>
     </body>
 </html>
