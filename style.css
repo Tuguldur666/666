@@ -121,6 +121,9 @@ span {
 ul li i {
   padding: 5px;
 }
+.lang li i::before {
+display: none;
+}
 
 strong {
   font-weight: bold;
